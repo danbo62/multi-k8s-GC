@@ -18,7 +18,7 @@ before_install:
   - docker build -t danbo62/multi-client -f ./client/Dockerfile.dev ./client
 
 script:
-    - docker run danbo62/multi-client npm run test -- --coverage # Bogu test, an example.
+  - docker run danbo62/multi-client npm run test -- --coverage # Bogu test, an example.
 
 # Custom script for deployment to GC Kube
 deploy:
