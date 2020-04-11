@@ -23,7 +23,7 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Learn React - Danbo was Here !
+              Learn React - Fib Calculator running in GC.
             </a>
           </header>
         </div>
