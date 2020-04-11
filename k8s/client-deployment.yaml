@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: danbo62/multi-fib-app
+        image: danbo62/multi-client
         resources:
           limits:
             memory: "128Mi"
